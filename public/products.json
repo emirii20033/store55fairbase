@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "BEYAZ FORMA",
+    "price": "1.955,00",
+    "image": "/_nuxt/assets/beyazforma.png"
+  },
+  {
+    "id": 2,
+    "name": "ÇUBUKLU FORMA",
+    "price": "1.955,00",
+    "image": "/_nuxt/assets/cubukluforma.png",
+    "gallery": [
+      "/_nuxt/assets/cubuklu1.png",
+      "/_nuxt/assets/cubuklu2.png",
+      "/_nuxt/assets/cubuklu3.png",
+      "/_nuxt/assets/cubuklu4.png"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "KING OF THE NORTH FORMA",
+    "price": "1.955,00",
+    "image": "/_nuxt/assets/kingofthenorth.png"
+  },
+  {
+    "id": 4,
+    "name": "KAPSAYICI FORMA",
+    "price": "1.955,00",
+    "image": "/_nuxt/assets/kapsayici.png"
+  },
+  {
+    "id": 5,
+    "name": "ANTRASIT FORMA",
+    "price": "455,00",
+    "image": "/_nuxt/assets/antrasit.png"
+  },
+  {
+    "id": 6,
+    "name": "MILENYUM FORMA",
+    "price": "1.249,90",
+    "image": "/_nuxt/assets/milenyum.png"
+  },
+  {
+    "id": 7,
+    "name": "MOR FORMA",
+    "price": "455,00",
+    "image": "/_nuxt/assets/morforma.png"
+  },
+  {
+    "id": 8,
+    "name": "LACİVERT EŞOFMAN",
+    "price": "1.299,90",
+    "image": "/_nuxt/assets/lacivert.png"
+  }
+]
