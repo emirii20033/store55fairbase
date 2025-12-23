@@ -1,6 +1,6 @@
 <template>
   <div class="contact-page container">
-    
+
     <div class="contact-layout">
       
       <div class="info-side">
@@ -72,6 +72,11 @@
 </template>
 
 <script setup>
+// !!! !!!
+definePageMeta({
+  layout: 'custom'
+})
+
 import { ref } from 'vue'
 import { useContactStore } from '~/stores/contactStore'
 
@@ -94,10 +99,10 @@ const handleSubmit = async () => {
 </script>
 
 <style scoped>
-.contact-page { padding: 50px 20px; font-family: 'Arial', sans-serif; min-height: 70vh; }
+.contact-page { padding: 50px 20px; font-family: 'Arial', sans-serif; }
 .container { max-width: 1100px; margin: 0 auto; }
 
-.contact-layout { display: flex; gap: 50px; background: white; border: 1px solid #eee; padding: 40px; border-radius: 5px; }
+.contact-layout { display: flex; gap: 50px; background: white; padding: 10px; border-radius: 5px; }
 
 /* SOL TARAF */
 .info-side { flex: 1; border-right: 1px solid #eee; padding-right: 40px; }
